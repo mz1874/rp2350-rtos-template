@@ -1,4 +1,4 @@
-# 简介
+# 简介 | [ENGLISH](README_EN.md)
 
 * 本项目支持是对RP2350 FreeRtos的移植. 支持内核的切换(有限制), 参考项目来自 https://github.com/LearnEmbeddedSystems/rp2040-freertos-template.git
 ![pico.jpg](assets/pico.jpg)
