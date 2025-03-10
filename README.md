@@ -2,6 +2,9 @@
 
 * 本项目支持是对RP2350 FreeRtos的移植. 支持内核的切换(有限制), 参考项目来自 https://github.com/LearnEmbeddedSystems/rp2040-freertos-template.git
 ![pico.jpg](assets/pico.jpg)
+
+## 感谢电子工程世界和得解电子对本项目的支持!
+
 ### 功能列表核心支持
 1. ARM核心
 2. RISC-V核心
