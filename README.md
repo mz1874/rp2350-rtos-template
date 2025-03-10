@@ -23,9 +23,7 @@ code .
 ```
 
 4. 使用PICO拓展插件切换芯片的架构
-<img src="assets/switch_board.png" alt="Switch Board" width="300" height="200">
-
-
+![switch_board.png](assets/switch_board.png)
 5. 在Cmakelist里切换当前移植文件, 如下所示, 打开对应的注释即可使用对应的移植环境
 ```
 
