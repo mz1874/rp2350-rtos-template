@@ -62,3 +62,13 @@ include(${FREERTOS_KERNEL_PATH}/portable/ThirdParty/Community-Supported-Ports/GC
 #define configRUN_MULTIPLE_PRIORITIES 0
 #define configUSE_CORE_AFFINITY 1 
 ```
+
+
+## Trouble shooting 
+
+- 问题: 频繁切换结构导致PICO插件报错, 无法编译项目
+
+**解决办法**: 删除 build文件夹, 然后重新新建build文件夹, 进入到build目录然后执行`cmake ..` 然后Clean Cmake.再重新编辑即可
+![img.png](assets/img.png)
+
+# 不要吝啬你的Star!!!
