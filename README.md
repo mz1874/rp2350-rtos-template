@@ -25,7 +25,10 @@ code .
 
 4. 使用PICO拓展插件切换芯片的架构
 ![switch_board.png](assets/switch_board.png)
-5. 在Cmakelist里切换当前移植文件, 如下所示, 打开对应的注释即可使用对应的移植环境
+
+可以选择启用RISC-V或者ARM
+![switch_architecture.png](assets/switch_architecture.png)
+5. 在Cmakelist里根据你选择的架构切换当前移植文件(也可以选择RP2040的), 如下所示, 打开对应的注释即可使用对应的移植环境
 ```
 
 # 使用RP2040的移植
